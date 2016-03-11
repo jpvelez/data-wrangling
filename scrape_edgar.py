@@ -13,7 +13,7 @@ import sys
 import json
 import argparse
 
-from scraper import EdgarScraper
+from enigma.scraper import EdgarScraper
 
 
 def init_parser():
@@ -29,7 +29,6 @@ def init_parser():
 
 
 if __name__ == '__main__':
-
     # Parse command line arguments.
     args = init_parser().parse_args()
     # Initialize scraper with user-supplied url.
