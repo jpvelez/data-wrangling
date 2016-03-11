@@ -4,13 +4,17 @@
 appnope=0.1.0=py27_0
 beautifulsoup4=4.4.1=py27_0
 decorator=4.0.9=py27_0
+flake8=2.5.1=py27_0
 ipython=4.1.2=py27_0
 ipython_genutils=0.1.0=py27_0
+mccabe=0.3.1=py27_0
 openssl=1.0.2g=0
 path.py=8.1.2=py27_1
+pep8=1.7.0=py27_0
 pexpect=3.3=py27_0
 pickleshare=0.5=py27_0
 pip=8.1.0=py27_0
+pyflakes=1.1.0=py27_0
 python=2.7.11=0
 python.app=1.2=py27_4
 readline=6.2=2
