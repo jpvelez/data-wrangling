@@ -1,6 +1,5 @@
 # PART 1 - CSV Test
 # Download test dataset.
-FILE_URL=https://s3.amazonaws.com/data-code-test/
 data/test.csv:
 	mkdir -p data
 	curl -o $@ https://s3.amazonaws.com/data-code-test/test.csv
@@ -18,4 +17,4 @@ data/solution.csv: data/test.csv data/state_abbreviations.csv clean_data.py
 # Scraper website at URL, and output data in JSON format.
 URL=http://data-interview.enigmalabs.org/companies/
 data/solution.json:
-	python scrape_edgar.py --output $@
+	python scrape_edgar.py $(URL) --output $@
