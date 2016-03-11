@@ -16,7 +16,6 @@ logging.getLogger("requests").setLevel(logging.WARNING)
 logging.getLogger("urllib3").setLevel(logging.WARNING)
 logging.basicConfig(level=logging.INFO)
 
-print 'loaded!!!'
 
 class EdgarScraper(object):
 
@@ -118,4 +117,3 @@ class EdgarScraper(object):
         # Return parsed companies asynchronously as jobs complete.
         for company in companies:
             yield company
-
